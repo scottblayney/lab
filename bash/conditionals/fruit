@@ -1,0 +1,17 @@
+#!/bin/bash
+
+case $1 in
+  apple)
+    echo "Apples are red, green, or yellow."
+    ;;
+  banana)
+    echo "Bananas are yellow and brown."
+    ;;
+  kiwi)
+    echo "Kiwis are brown outside, green inside."
+    ;;
+  *)
+    echo "Unrecognized fruit."
+    ;;
+esac
+
